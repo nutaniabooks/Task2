@@ -1,0 +1,57 @@
+
+*{
+    background-image: url("Photo1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+  body{
+    text-align: center;
+  }
+  
+  div {
+    display: flex ;
+    column-count: 3;
+    border-width: 1px;
+    margin: 9px;
+    align-items: center;
+  }
+  
+  .inputs {
+    opacity: 100%;
+  }
+  
+  input {
+    color:rgb(0, 0, 0);
+    
+  }
+  
+  h1 {
+    color:rgb(10, 10, 8);
+    font-family: 'sans serf';
+    text-align: center;
+  }
+  
+  h2 {
+    color:rgb(10, 10, 8);
+    font-family: 'sans serf';
+    text-align: center;
+  }
+  
+  label {
+    /* display: flex; */
+    margin: 5px;
+    padding: 3px;
+    color: rgb(2, 1, 1)
+  }
+  
+  form {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  
